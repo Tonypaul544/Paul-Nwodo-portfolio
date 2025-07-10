@@ -1,0 +1,181 @@
+
+:root {
+  --lightBlue: coral;
+  --lightBlue: rgb(38, 146, 182);
+}
+
+.hameContainer {
+  width: 100vw;
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 40px;
+  overflow: hidden;
+  background-color:aliceblue;
+  animation: fadein 1.2s ease-in-out;
+  flex-wrap: wrap;
+
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+.homeLeft {
+  width: 60%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* .navbar {
+  width: 1000px;
+  height: 45em;
+  margin-left: -550px;
+  margin-top: -30px;
+  display: flex;
+  border-radius: 300%;
+  background-color: transparent;
+  border: 5px solid var(--lightBlue);
+}
+
+.innerNav {
+  width: 650px;
+  height: 45em;
+  margin-left: -70px;
+  display: flex;
+  border-radius: 300%;
+  background-color: transparent;
+  border: 10px solid var(--lightBlue);
+  border-left: none;
+  opacity: .5;
+} */
+
+.welcomeText {
+  width: 90%;
+  height: 100%;
+  justify-self: center;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  padding-right: 5px;
+  color: black;
+  text-align: center;
+  box-sizing: border-box;
+  display: grid;
+}
+
+.lineHeight {
+  line-height: 10px;
+}
+
+.greeting {
+  font-size: 5.5rem;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.myName {
+  font-size: 2.3rem;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.description {
+  width: 98%;
+  height: 100%;
+  font-size: 1.5rem;
+  color: black;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.actionBTNs {
+  width: 70%;
+  height: 100px;
+  display: flex;
+  align-items: baseline;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-top: -40px;
+  left: 0;
+  align-items: center;
+  }
+
+.actionBTN {
+  width: 180px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--lightBlue);
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+  /* RIGHT SIDE OF THE FIRST SECTION */
+.homeRight {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  /* background-color: blueviolet; */
+  overflow: hidden;
+  
+}
+
+.empty{
+  width: 100%;
+  height: 30%;
+}
+
+.profile {
+  width: 90%;
+  height: 70%;
+  object-fit: cover;
+  margin: auto;
+  margin-bottom: 0;
+}
+
+.profilePic {
+  width: 90%;
+  height: 100%;
+  bottom: 0;
+  display: flex;
+  margin: auto;
+  margin-right: -10px;
+}
+
+
+/* .roundShapes {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+} */
+
+.homeRight div .roundShapes div.iconDiv {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: var(--lightBlue);
+  cursor: pointer;
+}
