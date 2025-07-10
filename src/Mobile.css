@@ -4,8 +4,8 @@
 
   .hameContainer {
   all: unset;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   flex-direction: column-reverse;
@@ -17,15 +17,26 @@
   width: 90%;
   height: 100%;
   overflow: hidden;
-  margin-top: 30px;
+  margin-top: 10px;
+  /* background-color: blueviolet; */
 }
 
 .greeting {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: black;
-  text-align: left;
+  text-align: center;
   margin-top: 20px;
-  /* display: none; */
+  display: none;
+}
+
+.myName {
+  font-size: 3.3em;
+  text-align: center;
+  margin: 30px auto 40px;
+}
+
+.im {
+  display: none;
 }
 
 .welcomeText {
@@ -38,22 +49,66 @@
   text-align: center;
 }
 
-.homeRight {
+.description {
   width: 100%;
-  height: 100%;
+  text-align: center;
+  padding-right: 15px;
+  box-sizing: border-box;
+
+}
+
+.description2{
+  display: none;
+}
+
+.actionBTNs {
+  width: 90%;
+  height: 10%;
   display: flex;
-  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.homeRight {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  margin: auto;
   flex-direction: column;
   overflow: hidden;
   justify-content: center; 
   align-items: center;
-  padding-right: 30px;
-  /* background-color: blueviolet; */
+  /* background-color: rgb(162, 212, 248); */
   overflow: hidden;
+  margin-top: 50px;
   
 }
 
+.empty{
+  width: 100%;
+  height: 30%;
+  background-color: aqua;
+  display: none;
+}
 
+.profile {
+  width: 90%;
+  height: 30%;
+  object-fit: cover;
+  display: flex;
+  margin: auto;
+  border-radius: 80%;
+}
+
+.profilePic {
+  width: 100%;
+  height: 30%;
+  bottom: 0;
+  display: flex;
+  margin: auto;
+  border-radius: 80%;
+}
 
 
 
