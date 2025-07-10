@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './header.css';
-import './mobileHead.css';
+import './mobile.css';
 
 export default function Header() {
   return (
