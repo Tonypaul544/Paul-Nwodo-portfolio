@@ -1,11 +1,15 @@
 
 import React from 'react';
 import './header.css';
+import './mobileHead.css';
 
 export default function Header() {
   return (
     <header className="header">
       <h1 className="logo">Courage</h1>
+      {/* <div className="hamburger">
+        <i className="fa-solid fa-bars"></i>
+      </div> */}
       <nav className="header-nav">
         <ul>
           <li><a href="/">Home</a></li>
